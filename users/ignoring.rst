@@ -71,7 +71,8 @@ The ``.stignore`` file contains a list of file or path patterns. The
    ``{banana}``, and so on.
 
 -  A pattern beginning with ``/`` matches in the root of the folder only.
-   ``/foo`` matches ``foo`` but not ``subdir/foo``.
+   ``/foo`` matches ``foo`` but not ``subdir/foo``. (Exept in Windows where
+   the character is '\')
 
 -  A pattern beginning with ``#include`` results in loading patterns
    from the named file. It is an error for a file to not exist or be
